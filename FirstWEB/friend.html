@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GJGRAM</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #fff;
+      color: #000;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 15px;
+      border-bottom: 1px solid #ccc;
+      font-size: xx-large;
+    }
+
+    .navbar-icons {
+      display: flex;
+      align-items: center;
+    }
+
+    .navbar-icons i {
+      margin-left: 15px;
+      font-size: 50px;
+    }
+
+    .menu-bar {
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 0;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .menu-bar i {
+      font-size: 22px;
+    }
+
+    .menu-bar i.active {
+      color: red;
+    }
+    .frbdy{
+        margin-left: 30px;
+        font-size: 7vw;
+    }
+      .frbdy .btn{
+        height: 4vw;
+        width: 30vw;
+        border-radius: 999px;
+        transform: translateX(5vw);
+        transform: translateY(-2vw);
+        font-size: xx-large;
+        background-color: darkred;
+        color: white;
+        margin-left: 100px;
+      }
+      .frbdy .del{
+        transform: translateX(15vw);
+        transform: translateY(-2vw);
+        border-radius: 999px;
+        height: 4vw;
+        width: 30vw;
+        font-size: xx-large;
+        background-color: darkred;
+        color: white;
+        margin-left: 200px;
+      }
+      .del:hover{
+        background-color: fuchsia;
+      }
+      .btn:hover{
+        background-color: fuchsia;
+      }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <img src="logopp.png" alt="GJ Logo">
+    <div><strong>GJGRAM</strong></div>
+    <div class="navbar-icons">
+       <a href="profile.html"><i class="fa-solid fa-circle-user"></i></a>
+      <i class="fa-solid fa-gear" style="color: #00040a;"></i>
+      </div>
+  </div>
+
+  <div class="menu-bar">
+    <a href="GJ.html"><i class="fas fa-home"></i></a>
+    <i class="fas fa-users active"></i>
+    <i class="fa-solid fa-paper-plane" style="color: #010409;"></i>
+    <i class="fa-solid fa-bars" style="color: #000000;"></i>
+  </div>
+  <div class="frbdy">
+    <i class="fa-solid fa-circle-user"></i><button class="btn">Follow back</button><button class="del">Delete</button><br>
+    <i class="fa-solid fa-circle-user"></i><button class="btn">Follow back</button><button class="del">Delete</button><br>
+    <i class="fa-solid fa-circle-user"></i><button class="btn">Follow back</button><button class="del">Delete</button><br>
+    <i class="fa-solid fa-circle-user"></i><button class="btn">Follow back</button><button class="del">Delete</button><br>
+    <i class="fa-solid fa-circle-user"></i><button class="btn">Follow back</button><button class="del">Delete</button><br>
+  </div>
